@@ -1,0 +1,179 @@
+/* reset styles */
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,variable,form,fieldset,blockquote
+	{
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,th,caption {
+	font-weight: normal;
+	text-align: left;
+}
+
+img,fieldset {
+	border: 0;
+}
+
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+
+ul {
+	padding-left: 1.4em;
+	list-style: none;
+}
+
+q:before,q:after {
+	content: '';
+}
+/* end reset */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #00CCFF;
+}
+
+a:hover, a:active {
+	color: yellow;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	height: 100%;
+}
+
+fieldset {
+    display: inline;
+}
+
+#banner {
+	background: #121C26 url(../images/banner-leaf.jpg) right no-repeat;
+	height: 120px;
+	color: white;
+}
+
+#banner-content {
+	width: 75%;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+#main {
+	width: 75%;
+	margin: 0px auto;
+	background-color: #407B83;
+	min-height: 80%;
+}
+
+#user_edit_form {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#user_info {
+	padding: 10px 30px;
+}
+
+#tweetArea textarea {
+	width: 100%;
+}
+
+.tweet-list {
+	padding: 10px 1.4em 1px 1.4em;
+}
+
+.tweet-list li {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.tweet-list .odd {
+	background-color: #869AB2;
+}
+
+.tweet-list .even {
+    background-color: #D9E1B2;
+}
+
+.tweet-message .username {
+	font-weight: bold;
+}
+
+.rounded-corners {
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.errors {
+	color: red;
+}
+
+img.small-userpic{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 0px 5px;
+}
+
+.full-size-wide {
+	width: 100%;
+}
+
+.user-list {
+    padding: 10px 1.4em 1px 1.4em;
+}
+
+.user-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-list .odd {
+    background-color: #869AB2;
+}
+
+.user-list .even {
+    background-color: #D9E1B2;
+}
+
+.user-info .username {
+    font-weight: bold;
+}
